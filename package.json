@@ -1,0 +1,16 @@
+{
+  "name": "web3-domain-assistant-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for Web3 Domain Assistant",
+  "scripts": {
+    "start": "vite", // If using Vite
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "ethers": "^6.7.1" // Only if frontend interacts directly with blockchain
+  },
+  "devDependencies": {
+    "vite": "^4.4.0" // Or webpack, parcel, etc.
+  }
+}
